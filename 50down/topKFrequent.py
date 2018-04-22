@@ -1,5 +1,15 @@
 '''
-collections.Counter 統計各元素個數，most_common 挑出最常出現的
+Top K Frequent Elements 
+
+題目：
+找出在陣列中出現頻率大於等於 k 的元素
+
+想法：
+- 統計個元素個數
+- 挑出個數大於等於 k 的元素
+
+Time:  O(n)
+Space: O(1)
 '''
 class Solution(object):
     def topKFrequent(self, nums, k):

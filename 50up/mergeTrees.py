@@ -4,7 +4,10 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+'''
+Merge Two Binary Trees    
 
+'''
 class Solution(object):
     def mergeTrees(self, t1, t2):
         """

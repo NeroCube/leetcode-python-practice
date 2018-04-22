@@ -5,7 +5,19 @@
 #         self.left = None
 #         self.right = None
 '''
-遞迴：左邊的回傳原本的數，右邊的回傳零，根的值設為左右相加，
+Sum of Left Leaves 
+題目：
+加總整棵樹左邊的子葉
+
+想法：
+- 沒有樹回傳0
+- 判斷是不是葉
+- 左葉回傳原本的值，右葉回傳零
+- 並在方入葉的時，紀錄是不是左邊
+- 遞迴
+
+Time:  O(n)
+Space: O()
 '''
 class Solution(object):
     def sumOfLeftLeaves(self, root):

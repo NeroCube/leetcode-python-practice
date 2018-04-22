@@ -1,3 +1,6 @@
+'''
+Unique Morse Code Words
+'''
 class Solution(object):
     def uniqueMorseRepresentations(self, words):
         """

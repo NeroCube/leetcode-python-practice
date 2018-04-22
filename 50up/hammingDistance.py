@@ -1,3 +1,6 @@
+'''
+Hamming Distance
+'''
 class Solution(object):
     def hammingDistance(self, x, y):
         """
