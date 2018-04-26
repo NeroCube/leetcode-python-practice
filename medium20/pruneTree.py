@@ -1,5 +1,9 @@
 '''
 814. Binary Tree Pruning
+
+[題目]
+修剪數值是0的葉子
+
 '''
 class Solution(object):
     def pruneTree(self, root):

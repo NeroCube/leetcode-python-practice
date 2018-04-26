@@ -1,5 +1,8 @@
 '''
 535. Encode and Decode TinyURL
+
+[題目]
+短網址服務
 '''
 import random, string
 

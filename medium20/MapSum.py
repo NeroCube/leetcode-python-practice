@@ -1,5 +1,8 @@
 '''
 677. Map Sum Pairs
+
+[題目]
+在字典裡，搜尋的字是他的字首的單字，把他的值加總
 '''
 class MapSum(object):
 

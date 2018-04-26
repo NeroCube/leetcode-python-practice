@@ -1,5 +1,11 @@
 '''
 442. Find All Duplicates in an Array
+
+[題目]
+找陣列中所有重複的
+
+[思路]
+count 出現次數
 '''
 class Solution(object):
     def findDuplicates(self, nums):

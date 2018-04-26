@@ -1,5 +1,14 @@
 '''
 515. Find Largest Value in Each Tree Row
+
+[題目]
+列出每成層最大的值
+
+[思考]
+每個節點問這層有沒有老大
+沒有自己就是老大
+有就PK
+
 '''
 class Solution(object):
     def largestValues(self, root):
